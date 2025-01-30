@@ -162,7 +162,7 @@ function isMobileDevice() {
 }
 
 // Add click event to request gyroscope permission
-document.body.addEventListener('click', () => {
+document.body.addEventListener('click', () => {  
   if (isMobileDevice()) {
     requestGyroPermission();
   }
